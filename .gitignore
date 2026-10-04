@@ -1,0 +1,17 @@
+models/
+**/checkpoint-*/
+final_bce_full/
+last_subtoken_focal_full/
+pseudo_bce_finetuned/
+.ipynb_checkpoints/
+__pycache__/
+submission*.csv
+test_pseudo_with_confidence.csv
+
+# Restricted datasets and private generated data
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+data/
+datasets/
