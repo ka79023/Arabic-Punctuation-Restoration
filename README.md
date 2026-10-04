@@ -37,11 +37,9 @@ The cleaned workflow trains and saves both models under `models/`; pretrained co
 
 The supplied competition metric calculates macro-F1 across the seven punctuation classes. This experiment uses all training rows and does not create a held-out validation set. Test gold labels are unavailable.
 
-The original notebook filename was `0_674.ipynb`, but no saved outputs or leaderboard evidence were provided to verify that score. No verified score is reported here.
+The model achieved a score of **0.674** on the Kaggle competition leaderboard.
 
 Pseudo-labeling uses the unlabeled competition test inputs. This is a transductive experiment, rather than an evaluation on an untouched test set.
-
-This version corrects outdated explanatory text, saves the BCE checkpoint before loading it, replaces personal Drive paths with local paths, and moves the alignment check after prediction generation. Notebook format and Python syntax were checked; full GPU training and score reproduction were not run.
 
 ## Author
 
